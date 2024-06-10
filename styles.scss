@@ -1,0 +1,63 @@
+/* -- SASS -- */ 
+
+@import "varibles";
+
+*
+{
+    font-family: $font-fam;
+}
+
+.navbar
+{
+    background-image: url(avion\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color : $color-header;
+    height: 200px;
+
+    .slogan
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo
+    {
+        color : $color-background;
+        font-size: 50px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    p 
+    {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(39, 15, 86);
+    }
+
+    .navbar0 
+    {
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+main
+{
+    .oficina
+    {
+        width: 600px;
+    }
+    .titulo h1
+    {
+        text-align: center;
+        font-size: $font-h1;
+        background-color: $color-p;
+        color: rgb(32, 7, 85);
+        font-weight: bold;
+    }
+}
+

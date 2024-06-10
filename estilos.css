@@ -1,0 +1,445 @@
+
+* 
+{
+  font-family: "helvetica";
+}
+
+/* -- VERSION MOVIL -- */
+
+/* -- HEADER -- */
+
+header .navbar-toggler:hover
+{
+  color: white;
+}
+.navbar {
+  background-image: url(avion\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d9dded;
+  height: 200px;
+}
+.navbar .slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar #logo {
+  color: #b12a2e;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(39, 15, 86);
+}
+.navbar .navbar0 {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-1:hover
+{
+  color: rgb(163, 124, 163);
+}
+
+.navbar .nav-2:hover
+{
+  color: rgb(163, 124, 163);
+}
+
+
+/* -- MAIN -- */
+
+main .titulo h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 45px;
+  color: rgb(32, 7, 85);
+  font-weight: bold;
+}
+
+main .parrafo
+{
+  padding: 10px;
+}
+
+main .parrafo:hover
+{
+  margin: 10px;
+  background-color: rgb(232, 246, 201);
+  box-shadow: 12px 10px rgba(0, 0, 0, 0.5);
+}
+
+main .imagen
+{
+  display: flex;
+  flex-direction: column;
+}
+
+/* -- SECTION /  ART 1 -- */
+
+section h1
+{
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+section .carousel-item
+{
+  height: 500px;
+  background-image: linear-gradient(0, 0, 0, 0.5);
+}
+
+section h3
+{
+  font-size: 20px;
+}
+
+section h5
+{
+  color: rgb(39, 37, 37);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+section .viajes
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .viajes:hover
+{
+  background-color: bisque;
+  border-radius: 20px;
+  box-shadow: 10px 12px 15px;
+}
+
+/* -- SECTION / ART 2 -- */
+
+section .pago
+{
+  height: 30px;
+}
+
+section img
+{
+  margin: 20px 10px;
+}
+
+.btn button
+{
+  margin-left: 250px;
+  font-size: 30px;
+  background-color: #b12a2e;
+  transition: width;
+}
+
+.btn button:hover
+{
+  width: 110px;
+  background-color: wheat;
+}
+
+.btn a
+{  
+  color: rgb(203, 193, 173);
+  text-decoration: none;
+}
+
+.btn a:hover
+{
+  color: #b12a2e;
+  font-weight: bold;
+}
+
+/* -- FOOTER -- */
+
+footer
+{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--Página adicional - Formulario de Contacto--*/
+
+.correo
+{
+  background-color: grey;
+}
+
+.correo h1
+{
+  font-size: 45px;
+  padding: 0 15px;
+}
+
+.correo h2
+{
+  font-size: 30px;
+  padding: 15px;
+}
+
+.correo h3
+{
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.correo .dire
+{
+  padding: 10px;
+}
+
+.correo .mail
+{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.correo input
+{
+  font-size: 18px;
+}
+
+.correo .mensaje
+{
+  width: 400px;
+  height: 150px;
+}
+
+.correo button
+{
+  margin: 20px;
+  width: 120px;
+  height: 60px;
+}
+
+/*--Página Adicional / Internacionales --*/
+
+.contenedor
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+ 
+}
+
+.contenedor h1
+{
+  font-weight: bold;
+  margin: 30px;
+}
+
+.contenedor .cartas
+{
+  background-color: rgb(248, 240, 229);
+}
+
+.contenedor .card
+{
+  width: 18rem;
+  margin: 25px;
+  text-align: center;
+  transition: width 2s;
+}
+
+.contenedor .card:hover
+{
+  width: 28rem;
+  box-shadow: 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor p{
+  font-weight: bold;
+}
+
+.contenedor .btn
+{
+  background-color:  rgb(248, 240, 229);
+}
+ 
+/* -- VERSION DESKTOP -- */
+
+@media (min-width: 640px)
+{
+
+  /* -- HEADER -- */
+  .navbar {
+    height: 400px;  
+  }
+
+  .navbar #logo 
+  {
+    font-size: 80px;
+  }
+
+  .navbar p {
+    font-size: 30px;
+  }
+
+  .navbar .navbar0 {
+    padding: 20px;
+    font-size: 30px;
+    ju
+  }
+
+  /* -- MAIN -- */ 
+
+  main .titulo h1 {
+    font-size: 85px;
+  }
+
+  main .parrafo
+  {
+    padding: 40px;
+    height: 350px;
+    font-size: 30px;
+  }
+
+    main .imagen
+  {
+    flex-direction: row;
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+  }
+
+  /* -- SECTION / ART 1 -- */ 
+
+  section img
+  {
+    height: 700px;
+  }
+
+  /* -- SECTION / ART 2 -- */
+
+  section .Art-2
+  {
+    height: 500px;
+  }
+
+  section h1
+  {
+    font-size: 65px;
+  }
+
+  section .container
+  {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .section .pago
+  {
+    margin: 50px;
+  }
+
+  section .viajes{
+    background-color: bisque;
+    margin: 50px 20px;
+  }
+
+  .viajes:hover
+  {
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .viajes img
+  {
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+  }
+
+  /* -- BOTON PARA VOLVER -- */ 
+
+  .btn button
+  {
+    font-size: 50px;
+    margin-left: 600px;
+  }
+
+    .btn button:hover
+  {
+    width: 210px;
+    background-color: wheat;
+  }
+
+  /* -- FOOTER -- */
+
+  footer
+  {
+    height: 100px;
+    font-size: 20px;
+  }
+
+  /* -- PAGINA INTERNACIONALES -- */
+
+  .contenedor .text-danger
+  {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .contenedor .cartas
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contenedor .card
+  {
+    width: 23rem;
+    margin: 30px 28px;
+  }
+
+  /* -- PAGINA DE CONTACTO -- */
+
+  .correo 
+  {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .correo .dire
+  {
+    padding: 0px 30px;
+    justify-content: space-between;
+  }
+
+  .correo .mail
+  {
+    margin: 50px 50px;
+  }
+
+  .correo h1
+  {
+    color: text-primary;
+    font-size: 40px;
+  }
+
+  .correo h2
+  {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
